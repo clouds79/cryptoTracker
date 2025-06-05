@@ -63,7 +63,7 @@ function roundoff( x) {
 
 }
 getCoins();
-//setInterval(getCoins,10000);
+setInterval(getCoins,10000);
 
 document.getElementById("searchButton").addEventListener('click', function () {
     try {
